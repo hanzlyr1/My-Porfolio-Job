@@ -1,5 +1,5 @@
 import React from 'react'
-import './styles/SoftSkills.css'
+import './styles/softSkills.css'
 
 const SoftSkills = () => {
   return (

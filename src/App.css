@@ -58,10 +58,3 @@ button {
     
     
 }
-@media(min-width: 1000px){
-    .App {
-        gap: 2rem;
-    }
-
-}
-
