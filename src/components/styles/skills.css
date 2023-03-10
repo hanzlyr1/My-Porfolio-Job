@@ -1,0 +1,35 @@
+.hability-container {
+    padding: 0 2rem;
+    background-color: var(--background-second);
+    margin-top: 3rem;
+}
+
+.hability {
+    margin-top: 3rem;
+    font-size: 2rem;
+    padding-bottom: 0.6rem;
+    border-bottom: 3px solid var(--text-color);
+    color: var(--color-primary);
+}
+
+.hability-div {
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5rem;
+}
+
+.hability-icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(232, 230, 230);
+    padding: 0.3rem;
+    font-size: 1.1rem;
+}
+
+.hability-icon i {
+    margin-top: 0.4rem;
+    font-size: 1.8rem;
+}

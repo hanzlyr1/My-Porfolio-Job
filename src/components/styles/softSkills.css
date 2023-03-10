@@ -1,0 +1,22 @@
+.bland-container {
+    padding: 0 2rem;
+    background-color: var(--background-second);
+    margin-top: 3rem;
+}
+
+.bland {
+    margin-top: 3rem;
+    font-size: 2rem;
+    padding-bottom: 0.6rem;
+    border-bottom: 3px solid var(--text-color);
+    color: var(--color-primary);
+}
+
+.bland-ul {
+    margin-top: 1rem;
+    list-style: circle;
+    padding-left: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}

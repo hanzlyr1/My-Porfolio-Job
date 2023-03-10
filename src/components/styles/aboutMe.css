@@ -1,0 +1,56 @@
+.about-me-container {
+    padding: 1rem 1rem;
+    background-color: var(--background-second);
+    margin-top: 3rem;
+    
+}
+
+
+.about-me {
+    width: 100%;
+    color: var(--color-primary);
+    font-size: 2rem;
+    padding-bottom: 0.6rem;
+    border-bottom: 3px solid var(--text-color);
+}
+
+.about-me-description {
+    margin-top: 1rem;
+    color: var(--text-color);
+    font-size: 1.2rem;
+    line-height: 30px;
+}
+
+.education-container {
+    padding: 1rem 1rem;
+    background-color: var(--background-second);
+    margin-top: 3rem;
+}
+
+.education {
+    margin-top: 3rem;
+    font-size: 2rem;
+    padding-bottom: 0.6rem;
+    border-bottom: 3px solid var(--text-color);
+    color: var(--color-primary);
+}
+
+.academlo {
+    margin-top: 1rem;
+    font-size: 1.1rem;
+    color: white;
+}
+
+.study {
+    font-size: 0.8rem;
+    width: 70%;
+    padding: 0.2rem;
+    color: white;
+    border: 1px solid white;
+    margin: 0.5rem 0;
+}
+
+.bootcamp-description {
+    padding-left: 0.4rem;
+
+}

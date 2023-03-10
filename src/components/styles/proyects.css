@@ -1,0 +1,20 @@
+.proyects-container {
+    padding: 0 2rem;
+    background-color: var(--background-second);
+    margin-top: 3rem;
+}
+
+.proyects {
+    margin-top: 3rem;
+    font-size: 2rem;
+    padding-bottom: 0.6rem;
+    border-bottom: 3px solid var(--text-color);
+    color: var(--color-primary);
+    margin-bottom: 1rem;
+}
+
+.proyects-div {
+    margin: 0 auto;
+    width: 250px;
+    padding: 1rem 0;
+}

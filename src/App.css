@@ -1,0 +1,67 @@
+:root {
+    --background: #000501;
+    --text-color: rgb(209, 204, 204);
+    --color-primary: #fcc605c6;
+    --color-second: rgb(255, 255, 255);
+    --color-third: #99D19C;
+    --background-second: #060606;
+    
+
+}
+
+body {
+    background: var(--background);
+    color: var(--text-color);
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    background: var(--background);
+    z-index: 1;
+
+}
+button {
+    cursor: pointer;
+}
+
+.icons {
+    display: inline-block;
+}
+
+
+
+@media(min-width: 700px){
+    .App {
+        width: 90%;
+        margin-top: 2rem;
+        margin: 0 auto;
+        
+        display: grid;
+        
+        grid-template-columns: 10% 90%;
+        margin-top: 3rem;
+        max-width: 1000px;
+        
+    }
+    .container-data {
+        width: 90%;
+        margin-left: auto;
+        margin-right: 0;
+    }
+    #div-img-one-especifico{
+        padding-top: 0;
+        
+    
+    }
+    
+    
+    
+}
+@media(min-width: 1000px){
+    .App {
+        gap: 2rem;
+    }
+
+}
+
