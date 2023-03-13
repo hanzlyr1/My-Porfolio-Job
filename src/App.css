@@ -55,10 +55,16 @@ a {
     }
     #div-img-one-especifico{
         padding-top: 0;
-        
-    
     }
-    
+    .div-proyects-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;     
+    }
+    .proyects-div img {
+        width: 100%;
+        height: 200px;
+    }
     
     
 }

@@ -22,7 +22,6 @@
 }
 
 .education-container {
-    padding: 1rem 1rem;
     background-color: var(--background-second);
     margin-top: 3rem;
 }
@@ -34,6 +33,7 @@
     border-bottom: 3px solid var(--text-color);
     color: var(--color-primary);
 }
+
 
 .academlo {
     margin-top: 1rem;

@@ -15,6 +15,17 @@
 
 .proyects-div {
     margin: 0 auto;
-    width: 250px;
+    width: 100%;
     padding: 1rem 0;
+    
+}
+.proyects-div:hover{
+    transform: scale(1.1);
+    transition: transform 0.2s ease-in-out;
+}
+
+.MyProyects {
+    text-align: center;
+    background-color: var(--color-primary);
+    color: rgb(36, 36, 75);
 }

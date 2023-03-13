@@ -1,7 +1,8 @@
-.footer {
-    margin-top: 2rem ;
-    text-align: center;
+.footer-div {
+    display: flex;
+    justify-content: center;
+    background: var(--color-second);
+    color: black;
     height: 30px;
     line-height: 30px;
-    background: rgb(43, 55, 3);
 }

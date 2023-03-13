@@ -18,7 +18,7 @@ const Data = () => {
                         <button className='button-cv'>CV</button>
                     </div>
                     <div className='div-button'>
-                        <button className='button-contac'>Concactame</button>
+                        <button className='button-contac'><a href="">Concactame</a></button>
                     </div>
                 </div>
                 <h3 className='redes'>Redes</h3>
