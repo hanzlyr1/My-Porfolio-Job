@@ -28,6 +28,10 @@ button {
 .icons {
     display: inline-block;
 }
+a {
+    text-decoration: none;
+    color: var(--color-second);
+}
 
 
 
@@ -58,3 +62,23 @@ button {
     
     
 }
+.ul__li {
+    animation-name: fade-in;
+    animation-duration: 1s;
+  }
+  
+  @keyframes fade-in {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+
+
+.App{
+    animation-name: fade-in;
+    animation-duration: 3s;
+  }
+  
+  @keyframes fade-in {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }

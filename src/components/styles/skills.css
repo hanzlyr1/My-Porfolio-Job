@@ -28,6 +28,10 @@
     padding: 0.3rem;
     font-size: 1.1rem;
 }
+.hability-icon:hover{
+    transform: scale(0.9);
+    transition: transform 0.2s ease-in-out;
+}
 
 .hability-icon i {
     margin-top: 0.4rem;

@@ -2,7 +2,7 @@ import React from 'react'
 import './styles/skills.css'
 const Skills = () => {
   return (
-    <article className='hability-container'>
+    <article className='hability-container' id="skills">
     <h2 className='hability'>Habilidades</h2>
     <div className='hability-div'>
         <div className='hability-icon'>

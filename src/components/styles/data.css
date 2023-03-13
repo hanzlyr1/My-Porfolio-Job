@@ -70,6 +70,10 @@
     border: 2px solid var(--color-primary);
     font-size: 1.1rem;
 }
+.button-contac:hover {
+    transform: scale(1.1);
+    transition: transform 0.2s ease-in-out;
+}
 
 .button-cv {
     width: 100%;
@@ -79,6 +83,10 @@
     background: inherit;
     border: 2px solid var(--color-primary);
     font-size: 1.1rem;
+}
+.button-cv:hover{
+    transform: scale(1.1);
+    transition: transform 0.2s ease-in-out;
 }
 
 .container-div-button {

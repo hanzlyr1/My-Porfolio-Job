@@ -3,7 +3,7 @@ import './styles/aboutMe.css'
 const AboutMe = () => {
   return (
     <>
-        <article className='about-me-container ' >
+        <article className='about-me-container ' id="aboutMe" >
                     <h2 className='about-me'>Sobre mí</h2>
                     <p className='about-me-description'>
                         Seguir creciendo a medida que desempeño mis labores en los proyectos, es algo que se me da muy bien; poseo conocimientos en varias tecnologías del Desarrollo Web, las cuales puedo aportar junto a mis habilidades blandas, para lograr el objetivo de desarrollarme profesionalmente en el ámbito de TI...</p>
