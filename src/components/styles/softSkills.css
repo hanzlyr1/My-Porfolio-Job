@@ -1,11 +1,11 @@
 .bland-container {
-    padding: 0 2rem;
+    padding: 1rem 2rem;
     background-color: var(--background-second);
     margin-top: 3rem;
 }
 
 .bland {
-    margin-top: 3rem;
+    
     font-size: 2rem;
     padding-bottom: 0.6rem;
     border-bottom: 3px solid var(--text-color);

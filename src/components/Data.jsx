@@ -1,4 +1,7 @@
 import React from 'react'
+import CV from "../assets/CV.pdf"
+
+
 import './styles/data.css'
 const Data = () => {
   return (
@@ -15,18 +18,18 @@ const Data = () => {
                 <h3 className='cargo'>Desarrollador Front-End</h3>
                 <div className='container-div-button'>
                     <div className='div-button'>
-                        <button className='button-cv'>CV</button>
+                        <button className='button-cv'><a href={CV} className='arfh' download>CV</a></button>
                     </div>
                     <div className='div-button'>
-                        <button className='button-contac'><a href="">Concactame</a></button>
+                        <button className='button-contac'><a href="" className='arfh'>Contactame</a></button>
                     </div>
                 </div>
                 <h3 className='redes'>Redes</h3>
                 <div className='div-icons'>
-                    <div> <i className="fa-brands fa-linkedin icon"></i></div>
-                    <div> <i className="fa-brands fa-square-github icon"></i></div>
-                    <div><i className="fa-brands fa-square-twitter icon"></i></div>
-                    <div><i className="fa-brands fa-square-instagram icon"></i></div>
+                    <div><a href="https://www.linkedin.com/in/luis-rojas-yaranga/" target='_black'><i className="fa-brands fa-linkedin icon"></i></a></div>
+                    <div><a href="https://github.com/hanzlyr1" target='_black'><i className="fa-brands fa-square-github icon"></i></a></div>
+                    <div><a href="https://twitter.com/LuisRojas322" target='_black'><i className="fa-brands fa-square-twitter icon"></i></a></div>
+                    <div><a href="https://www.instagram.com/junior.fls/" target='_black' ><i className="fa-brands fa-square-instagram icon"></i></a></div>
                 </div>
             </div>
         </div>

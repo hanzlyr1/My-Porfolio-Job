@@ -24,10 +24,11 @@
 .education-container {
     background-color: var(--background-second);
     margin-top: 3rem;
+    padding: 1rem 1rem;
 }
 
 .education {
-    margin-top: 3rem;
+    
     font-size: 2rem;
     padding-bottom: 0.6rem;
     border-bottom: 3px solid var(--text-color);
